@@ -1,0 +1,67 @@
+.backcolor{
+    background-color: #0AABB6;
+  
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition:  .5s ;
+  color: black;
+
+}
+.sidenavOpen {
+  width: 250px;
+  transition:  .5s ;
+
+}
+.closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  cursor: pointer; 
+  color: white;
+}
+.sidenavHead{
+  padding: 20px;
+  background-color: #0AABB6;
+  color: white;
+  width: 100%;
+  font-size: 25px;
+  box-shadow: 0px 1px rgba(122, 119, 119,.3);
+margin: 0;
+
+}
+
+ .items {
+  list-style: none;
+  padding: 10px 10px;
+  width: 100%;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  display: block;
+  transition: .1s ease-in;
+  overflow-x: hidden;
+
+}
+.items1{
+  background-color: #f1f1f1;
+
+}
+
+ .items:hover {
+  background-color: #f1f1f1;
+  text-decoration: none;
+  color: black;
+
+
+}

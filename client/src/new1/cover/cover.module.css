@@ -1,0 +1,16 @@
+
+
+.monospace {
+  font-family: "Lucida Console", Courier, monospace;
+}
+.background {
+  background: url('./cover.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+  
+  
+  .cnt {
+  padding-left:48px;
+  }
